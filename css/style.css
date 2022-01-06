@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen (max-width: 360) {
+    .header_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/*  COMIENZO HEADER  */
+
+.header_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 12fr);
+}
+header img {
+    width: 100%;
+    height:60vh;
+    object-fit: cover;
+}
+/*  COMIENZO NAV  */
+
+.enlacesgral, .titulo {
+    display: inline-block;
+    
+}
+
+.menu {
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+}
+
+.menu:hover {
+    background-color: orange;
+    padding: 20px;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-right: 10px;
+    -o-transition: all 500ms ease-in-out;
+
+}
+
+.titulo {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'New Rocker', cursive;
+}
+
+/*  COMIENZO MAIN  */
+
+.ofertasMensuales {
+    text-align: center;
+    margin-top: 50px;
+}
+.ofertasPrincipal {
+    margin-top: 20px;
+}
+
+.ofertas, .ofertasDos {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: grey 1;
+}
+
+.card-title {
+    font-size: 20px;
+}
+.card-img-top {
+    align-items: center;
+}
+
+.formulario {
+    align-items: center;
+}
+
+/*  COMIENZO FOOTER  */
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #666666;
+}
+
+.contactos {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    color: black;
+}
+
+.datos {
+    color: black;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.footerNav {
+    color: black;
+    text-decoration: none;
+}
